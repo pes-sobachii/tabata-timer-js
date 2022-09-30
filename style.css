@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 24px;
+   background-image: url('https://assets.website-files.com/5f7533fe3ad0a039ce5f1006/5f81cff41ab21313d506b971_ClassPass_Zoom-background_HomeGym.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+   background-color: inherit;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+.container {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 15px;
+   overflow: hidden;
+   background-color: rgba(0, 0, 0, 0.6);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+.input-block {
+   text-align: center;
+   width: 100%;
+   padding: 30px;
+   display: block;
+   color: aliceblue;
+}
+
+.input-block__title{
+   font-size: 50px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+
+.input-block__field{
+   display: flex;
+   justify-content: space-between;
+   width: 60%;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+
+.form input{
+   padding: 0 0 0 10px;
+}
+
+.form button{
+   display: inline-block;
+   padding: 10px 30px;
+   border-radius: 10px;
+   background-color: aqua;
+}
+
+.form__error{
+   display: none;
+   background-color: red;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 40px;
+   border-radius: 10px;
+}
+
+.form__error{
+   display: none;
+}
+
+.timer-block{
+   display: none;
+   width: 100%;
+}
+
+.timer-block>div{
+   border: 1px solid black;
+   flex: 0 0 50%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.timer-block__extra{
+   font-size: 60px;
+}
+
+.timer-block__extra div, .timer-block__time div{
+   padding: 30px 0;
+}
+
+.timer-block__time{
+   font-size: 110px;
+}
+
+.timer-block__time-title{
+   font-size: 60px;
+}

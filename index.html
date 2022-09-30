@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="container">
+      <section class="input-block">
+         <h1 class="input-block__title">Tabata timer</h1>
+         <form action="#" class="form">
+            <div class="input-block__field prep-time">
+               <span>Preparation</span>
+               <input type="number">
+            </div>
+            <div class="input-block__field round-time">
+               <span>Round</span>
+               <input type="number">
+            </div>
+            <div class="input-block__field rest-time">
+               <span>Rest</span>
+               <input type="number">
+            </div>
+            <div class="input-block__field round-number">
+               <span>Rounds</span>
+               <input type="number">
+            </div>
+            <div class="input-block__field set-number">
+               <span>Sets</span>
+               <input type="number">
+            </div>
+            <div class="form__error">
+               Please, fill out all the fields!
+            </div>
+            <button class="input-block__button">Start</button>
+         </form>
+      </section>
+      <section class="timer-block">
+         <div class="timer-block__extra">
+            <div class="timer-block__set"></div>
+            <div class="timer-block__round"></div>
+         </div>
+         <div class="timer-block__time">
+            <h2 class="timer-block__time-title">Time left</h2>
+            <h2 class="timer-block__time-timer"></h2>
+         </div>
+      </section>
+   </div>
+</body>
+<script src="index.js"></script>
+</html>
