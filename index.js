@@ -12,7 +12,7 @@ const timerBlock = document.querySelector('.timer-block')
 const inputBlock = document.querySelector('.input-block')
 const containerBlock = document.querySelector('.container')
 const errorMessage = document.querySelector('.form__error')
-const formInputs = document.querySelectorAll('.input-block__field')
+const formInputs = document.querySelectorAll('.input-block__field input')
 
 startButton.addEventListener('click', startHandler)
 
@@ -30,13 +30,17 @@ function startHandler(e) {
    e.preventDefault()
    let validation = false
    formInputs.forEach(input => {
-      if(input.value === undefined) {
+      console.log(input.value);
+      if(!input.value) {
+
          validation = true
+         return
       }
    })
    if(validation){
       errorMessage.style.display = 'flex'
       setTimeout(() => errorMessage.style.display = 'none', 3000)
+      debugger
       return
    }
    console.log(inputsArray);
