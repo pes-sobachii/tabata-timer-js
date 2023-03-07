@@ -19,25 +19,11 @@
    outline: none;
 }
 
-a:focus,
-a:active {
-   outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-   display: block;
-}
-
 html,
 body {
    height: 100%;
    width: 100%;
-   font-size: 100%;
    line-height: 1;
-   font-size: 14px;
    -ms-text-size-adjust: 100%;
    -moz-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
@@ -66,19 +52,6 @@ button {
 button::-moz-focus-inner {
    padding: 0;
    border: 0;
-}
-
-a,
-a:visited {
-   text-decoration: none;
-}
-
-a:hover {
-   text-decoration: none;
-}
-
-ul li {
-   list-style: none;
 }
 
 img {
@@ -115,13 +88,13 @@ h6 {
    color: aliceblue;
 }
 
-.input-block__title{
+.input-block__title {
    font-size: 50px;
    font-weight: 700;
    margin-bottom: 30px;
 }
 
-.input-block__field{
+.input-block__field {
    display: flex;
    justify-content: space-between;
    width: 60%;
@@ -129,18 +102,18 @@ h6 {
    margin-bottom: 20px;
 }
 
-.form input{
+.form input {
    padding: 0 0 0 10px;
 }
 
-.form button{
+.form button {
    display: inline-block;
    padding: 10px 30px;
    border-radius: 10px;
    background-color: aqua;
 }
 
-.form__error{
+.form__error {
    display: none;
    background-color: red;
    justify-content: center;
@@ -149,16 +122,16 @@ h6 {
    border-radius: 10px;
 }
 
-.form__error{
+.form__error {
    display: none;
 }
 
-.timer-block{
+.timer-block {
    display: none;
    width: 100%;
 }
 
-.timer-block>div{
+.timer-block>div {
    border: 1px solid black;
    flex: 0 0 50%;
    width: 100%;
@@ -168,18 +141,19 @@ h6 {
    flex-direction: column;
 }
 
-.timer-block__extra{
+.timer-block__extra {
    font-size: 60px;
 }
 
-.timer-block__extra div, .timer-block__time div{
+.timer-block__extra div,
+.timer-block__time div {
    padding: 30px 0;
 }
 
-.timer-block__time{
+.timer-block__time {
    font-size: 110px;
 }
 
-.timer-block__time-title{
+.timer-block__time-title {
    font-size: 60px;
 }
